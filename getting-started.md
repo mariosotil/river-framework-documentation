@@ -69,7 +69,7 @@ NotesThread.stermThread();
 If you want to run this demo, you will need to do this:
 
 - Un zip the River Framework in some folder
-- Download the [GettingStarted.java](https://gist.github.com/mariosotil/997ffc46a330537d0165) code and put in the same folder.
+- Download the [GettingStarted.java](https://raw.githubusercontent.com/mariosotil/river-framework-demo/master/GettingStarted/src/main/java/GettingStarted.java) code and put in the same folder.
 - Open a Command Prompt (Windows) or Terminal (Linux) and open that folder.
 - To compile it, just use this command: 
 ```
