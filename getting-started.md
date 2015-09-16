@@ -81,3 +81,6 @@ java -cp .;.\*;C:\IBM\Notes\jvm\lib\ext\Notes.jar GettingStarted mypassword
 ```
 
 Of course, you must change the location of Notes.jar, depending where you installed IBM Notes. Also, use the right 'mypassword' :-)
+
+
+Well, you can continue testing this framework with the demos uploaded at this [repo](https://github.com/mariosotil/river-framework-demo).
