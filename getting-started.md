@@ -1,10 +1,8 @@
 _First at all, you will need Java JDK 1.6+ and IBM Notes 8.5+ installed in your computer and download the River Framework binaries as a ZIP file from [OpenNTF](http://www.openntf.org/main.nsf/project.xsp?r=project/River%20Framework/releases)._
 
-Let's say that we need to open a IBM Notes session, create a test database, create a document, set a simple value and retrieve it again. Also, say "Hello" :-)
+Let's say that we need to open a IBM Notes session, create a test database, create a document, set a simple value and retrieve it again, and say "Hello world!".
 
-You can download the code from this example from this gist, [GettingStarted.java](https://gist.github.com/mariosotil/997ffc46a330537d0165). Meanwhile, here's how it works:
-
-To begin with, we define an arbitrary name for the test database, and retrieve the password from the command line arguments. 
+To begin with, our program will define an arbitrary name for the test database, and retrieve the password from the command line arguments. 
 
 ```java
 final String filepath = "river-getting-started.nsf";
@@ -81,6 +79,7 @@ java -cp .;.\*;C:\IBM\Notes\jvm\lib\ext\Notes.jar GettingStarted mypassword
 ```
 
 Of course, you must change the location of Notes.jar, depending where you installed IBM Notes. Also, use the right 'mypassword' :-)
+
 
 
 Well, you can continue testing this framework with the demos uploaded at this [repo](https://github.com/mariosotil/river-framework-demo).
